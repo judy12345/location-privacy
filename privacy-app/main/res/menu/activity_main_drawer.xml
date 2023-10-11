@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:title="主界面"/>
+        <item
+            android:id="@+id/nav_algorithm1"
+            android:title="轨迹重建算法" />
+        <item
+            android:id="@+id/nav_algorithm2"
+            android:title="路径匿名化与重建算法" />
+        <item
+            android:id="@+id/nav_algorithm2_1"
+            android:title="路径匿名化算法" />
+        <item
+            android:id="@+id/nav_algorithm3"
+            android:title="掩蔽数据交换算法" />
+        <item
+            android:id="@+id/nav_showroute"
+            android:title="单路径示例展示" />
+        <item
+            android:id="@+id/nav_show_multi_route"
+            android:title="多路径示例展示" />
+        <item
+            android:id="@+id/nav_show_recordroute"
+            android:title="加载路径展示" />
+        <item
+            android:id="@+id/nav_clearroute"
+            android:title="路径清除" />
+        <item
+            android:id="@+id/fake_location"
+            android:title="模拟位置" />
+   </group>
+</menu>

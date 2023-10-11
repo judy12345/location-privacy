@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mapFragment"
+    tools:context=".ui.map.MapFragment">
+
+    <com.baidu.mapapi.map.TextureMapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" >
+
+    </com.baidu.mapapi.map.TextureMapView>
+
+    <ImageView
+        android:id="@+id/updateLocationBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@mipmap/icon_position"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"/>
+
+    <ToggleButton
+        android:id="@+id/recordBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/record_button"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>
